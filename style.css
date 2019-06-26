@@ -217,13 +217,46 @@ input[type=submit] {
 }
 
 @media only screen and (max-width: 980px) {
+    #logo {
+        margin-left: 40px
+    }
+    #main-container {
+        width: 550px;
+        float: left;
+        margin-left: 50px;
+    }
+    .work {
+        width: 200px;
+    }
 
 }
 
-@media only screen and (max-width: 780px) {
-
+@media only screen and (max-width: 768px) {
+    body {
+        margin-top: 0;
+    }
+    #masthead {
+        width: 100%;
+    }
+    .container {
+        width: 90%;
+    }
 }
 
 @media only screen and (max-width: 640px) {
-    
+    body {
+        margin: 0 auto;
+    }
+    #logo {
+        width: 100% !important;
+    }
+    nav {
+        width: 100%;
+        text-align: center;
+    }
+    .auth-image {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
 }
