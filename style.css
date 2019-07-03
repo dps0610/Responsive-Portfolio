@@ -259,4 +259,7 @@ input[type=submit] {
         text-align: center;
         margin: 10px;
     }
+    #main-container{
+        margin: 10px;
+    }
 }
